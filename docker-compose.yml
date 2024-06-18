@@ -1,8 +1,8 @@
-version: "3"
+version: "3.8"
 
 services:
   message-pusher:
-    image: justsong/message-pusher
+    image: registry.cn-guangzhou.aliyuncs.com/landwind/message-pusher:latest
     restart: unless-stopped
     ports:
       - 3000:3000
